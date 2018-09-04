@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EFContext.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\News.cs" />
+    <Compile Include="Models\NewType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

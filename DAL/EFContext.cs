@@ -1,5 +1,6 @@
 ﻿namespace DAL
 {
+    using Models;
     using System;
     using System.Data.Entity;
     using System.Linq;
@@ -21,6 +22,7 @@
         //的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=390109。
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
+        public DbSet<News> newss { get; set; }
     }
 
     //public class MyEntity
@@ -28,4 +30,5 @@
     //    public int Id { get; set; }
     //    public string Name { get; set; }
     //}
+   
 }
